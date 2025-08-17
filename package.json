@@ -4,7 +4,7 @@
   "description": "Cross platform child_process#spawn and child_process#spawnSync",
   "main": "index.js",
   "scripts": {
-    "test": "node test/prepare && mocha --bail test/test",
+    "test": "node test/prepare && mocha --bail test/cveFix.test.js test/test.js",
     "lint": "eslint '{*.js,lib/**/*.js,test/**/*.js}'"
   },
   "bugs": {
